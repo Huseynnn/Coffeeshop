@@ -1,0 +1,71 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e140a;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #d2a679;
+} */
+
+
+/* Add this at the very top */
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e140a;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #d2a679;
+}
